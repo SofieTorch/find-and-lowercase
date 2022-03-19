@@ -35,6 +35,7 @@ try {
           return console.log(err);
         }
         var result = data.replace(regex, function (x) {
+          console.log(x);
           return x.toLowerCase();
         });
         if (data != result) {
