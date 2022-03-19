@@ -1,0 +1,30 @@
+name: 'Find and lowercase'
+description: Finds a regex inside files and replaces the matches with lowercase
+inputs:
+  regex:
+    description: 'regex to apply(regex)'
+    required: true
+  flags:
+    description: 'flags of the regex'
+    default: 'g'
+    required: false
+  include:
+    description: 'Files to be replaced(regex)'
+    default: '.*'
+    required: false
+  exclude:
+    description: 'Files not to be replaced(regex)'
+    default: '.^'
+    required: false
+  encoding:
+    description: 'String file encoding'
+    default: 'utf8'
+    required: false
+  path:
+    description: 'Path to the folder to be replaced'
+    default: '.'
+    required: false
+
+runs:
+  using: 'node12'
+  main: 'index.js'

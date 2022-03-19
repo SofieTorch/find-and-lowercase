@@ -1,0 +1,23 @@
+{
+  "name": "find-and-lowercase-action",
+  "version": "1.0.0",
+  "description": "Finds a regex inside files and replaces the matches with lowercase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SofieTorch/find-and-lowercase-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SofieTorch/find-and-replace-action/issues"
+  },
+  "homepage": "https://github.com/SofieTorch/find-and-replace-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.6.0",
+    "@actions/github": "^5.0.0"
+  }
+}
