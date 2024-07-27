@@ -1,5 +1,8 @@
 name: "Find and lowercase"
 description: Finds regex matches on files and transform them to lowercase.
+branding:
+  icon: "search"
+  color: "yellow"
 inputs:
   regex:
     description: "regex to apply(regex)"
