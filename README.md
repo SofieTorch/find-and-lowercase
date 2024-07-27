@@ -29,8 +29,7 @@ Based on [File Regex Replace](https://github.com/marketplace/actions/file-regex-
    
 ## Why Build This
 
-While generating documentation and publishing it, the file names where changed to lowercase, so the redirection and navigation through
-the web page was broken.
+While generating API documentation inside MD documentation for a Flutter project, the file names for my API docs where changed to lowercase, so the redirection and navigation through the web page was broken (as the links were still under the original file names).
 I created this action to fix it, changing a regex match to lowercase; in my case, changing the url's to lowercase when using this action.  
 I found other interesting GitHub Actions to replace text based on regex, specially [this](https://github.com/marketplace/actions/file-regex-replace),
 which is what I based this action on.
